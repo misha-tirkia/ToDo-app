@@ -1,0 +1,111 @@
+body {
+    background-color: cyan;
+}
+
+
+.title {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    margin-top: 30px;
+    color: coral;
+}
+
+.addbtn {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    color: red;
+    background-color: greenyellow;
+    border: 1px solid coral;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    left: 530px;
+    top: 42px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.addbtn:hover {
+    scale: 1.2;
+}
+
+.input {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    color: black;
+    border-radius: 30px;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    left: 500px;
+}
+
+button {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    background-color: greenyellow;
+    color: red;
+    border-radius: 10px;
+}
+
+#todolist {
+    position: relative;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    top: 70px;
+    left: 480px;
+}
+
+li {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+}
+
+.run {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: 710px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-family: "BPG Nino Mtavruli", sans-serif;
+        margin-top: 30px;
+        position: relative;
+        left: 100px;
+        color: coral;
+    }
+
+    .input {
+        font-family: "BPG Nino Mtavruli", sans-serif;
+        color: black;
+        border-radius: 30px;
+        font-size: 15px;
+        position: relative;
+        top: 40px;
+        left: 150px;
+    }
+    
+    li {
+        position: relative;
+        right: 355px;
+    }
+
+    .addbtn {
+        font-family: "BPG Nino Mtavruli", sans-serif;
+        color: red;
+        background-color: greenyellow;
+        border: 1px solid coral;
+        font-size: 20px;
+        border-radius: 20px;
+        position: relative;
+        left: 160px;
+        top: 42px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .run {
+        position: relative;
+        top: 600px;
+        left: 100px;
+    }
+
+}
